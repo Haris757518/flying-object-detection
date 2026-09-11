@@ -1,0 +1,326 @@
+{
+  "timestamp": "2026-09-11 21:41:06",
+  "best_technique": "YOLO12 + CNN",
+  "summary": [
+    {
+      "technique_name": "YOLO12 + CNN",
+      "application": "Detection + Classification",
+      "test_accuracy": 100.0,
+      "macro_f1": 0.5,
+      "macro_precision": 0.5,
+      "macro_recall": 0.5,
+      "latency_ms": 4.99,
+      "fps": 200.4,
+      "training_time_sec": 6.11,
+      "checkpoint_path": "checkpoints/yolo12__cnn.pt",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_metrics": {
+        "AIRPLANE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "BIRD": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 1
+        },
+        "DRONE": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 50
+        },
+        "HELICOPTER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "technique_name": "YOLO12 + LSTM",
+      "application": "Detection + Motion Analysis",
+      "test_accuracy": 98.04,
+      "macro_f1": 0.2475,
+      "macro_precision": 0.2451,
+      "macro_recall": 0.25,
+      "latency_ms": 1.71,
+      "fps": 585.2,
+      "training_time_sec": 1.64,
+      "checkpoint_path": "checkpoints/yolo12__lstm.pt",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_metrics": {
+        "AIRPLANE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "BIRD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "DRONE": {
+          "precision": 0.9804,
+          "recall": 1.0,
+          "f1_score": 0.9901,
+          "support": 50
+        },
+        "HELICOPTER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "technique_name": "YOLO12 + Transformer",
+      "application": "Detection + Improved Feature Representation",
+      "test_accuracy": 98.04,
+      "macro_f1": 0.2475,
+      "macro_precision": 0.2451,
+      "macro_recall": 0.25,
+      "latency_ms": 1.42,
+      "fps": 703.3,
+      "training_time_sec": 2.62,
+      "checkpoint_path": "checkpoints/yolo12__transformer.pt",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_metrics": {
+        "AIRPLANE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "BIRD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "DRONE": {
+          "precision": 0.9804,
+          "recall": 1.0,
+          "f1_score": 0.9901,
+          "support": 50
+        },
+        "HELICOPTER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "technique_name": "YOLO12 + BiLSTM + Attention",
+      "application": "Detection + Temporal Classification",
+      "test_accuracy": 98.04,
+      "macro_f1": 0.2475,
+      "macro_precision": 0.2451,
+      "macro_recall": 0.25,
+      "latency_ms": 8.35,
+      "fps": 119.7,
+      "training_time_sec": 8.65,
+      "checkpoint_path": "checkpoints/yolo12__bilstm__attention.pt",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_metrics": {
+        "AIRPLANE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "BIRD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "DRONE": {
+          "precision": 0.9804,
+          "recall": 1.0,
+          "f1_score": 0.9901,
+          "support": 50
+        },
+        "HELICOPTER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      }
+    },
+    {
+      "technique_name": "YOLO12 + GAN + Transformer",
+      "application": "Detection + Synthetic Data Augmentation",
+      "test_accuracy": 98.04,
+      "macro_f1": 0.2475,
+      "macro_precision": 0.2451,
+      "macro_recall": 0.25,
+      "latency_ms": 1.68,
+      "fps": 596.8,
+      "training_time_sec": 2.93,
+      "checkpoint_path": "checkpoints/yolo12__gan__transformer.pt",
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          50,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class_metrics": {
+        "AIRPLANE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        },
+        "BIRD": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 1
+        },
+        "DRONE": {
+          "precision": 0.9804,
+          "recall": 1.0,
+          "f1_score": 0.9901,
+          "support": 50
+        },
+        "HELICOPTER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 0
+        }
+      }
+    }
+  ]
+}
