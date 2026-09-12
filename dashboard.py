@@ -13,6 +13,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+from pathlib import Path
 
 from core.pipeline import DroneDefensePipeline
 from core.risk_engine import ThreatLevel, REAL_WORLD_DIAMETERS
@@ -105,42 +106,94 @@ def main():
     # Sidebar: Control Panel
     st.sidebar.markdown("### 🎛️ DEFENSE CONTROL PANEL")
 
+    st.sidebar.markdown("""
+    <div style="background: rgba(18, 26, 43, 0.85); border: 1px solid #1e293b; padding: 10px; border-radius: 8px; margin-bottom: 15px;">
+        <span style="color: #64748b; font-size: 12px;">ACTIVE MODEL</span><br>
+        <span style="color: #38bdf8; font-weight: bold; font-family: monospace;">YOLOv8s AOD-4</span><br>
+        <span style="color: #64748b; font-size: 12px;">CLASSES</span><br>
+        <span style="color: #e2e8f0; font-size: 14px;">4 (AIRPLANE, BIRD, DRONE, HELICOPTER)</span>
+    </div>
+    """, unsafe_allow_html=True)
+
     source_type = st.sidebar.selectbox(
         "Input Source",
-        ["Dataset Video (IR)", "Dataset Video (Visible)", "Upload Video File", "Live Webcam"]
+        ["Dataset Video (IR)", "Dataset Video (Visible)", "Upload Video File", "Live Webcam", "4-Class Demo"]
     )
 
     video_path = None
     sensor_type = "IR"
+    BASE_DIR = Path(__file__).resolve().parent
 
     if source_type == "Dataset Video (IR)":
-        ir_files = sorted(glob.glob("Data/Video_IR/*.mp4"))
-        if ir_files:
-            video_name = st.sidebar.selectbox("Select IR Video", [os.path.basename(f) for f in ir_files[:50]])
-            video_path = os.path.join("Data/Video_IR", video_name)
+        ir_files = sorted(glob.glob(str(BASE_DIR / "Data" / "Video_IR" / "*.mp4")))
+        root_ir = sorted(glob.glob(str(BASE_DIR / "Demo_IR_*.mp4")))
+        all_ir = root_ir + ir_files
+        if all_ir:
+            video_name = st.sidebar.selectbox("Select IR Video", [os.path.basename(f) for f in all_ir[:50]])
+            video_path = next(f for f in all_ir if os.path.basename(f) == video_name)
             sensor_type = "IR"
+        else:
+            st.sidebar.warning(f"No video found. Searched:\n{BASE_DIR / 'Demo_IR_*.mp4'}\n{BASE_DIR / 'Data' / 'Video_IR' / '*.mp4'}")
     elif source_type == "Dataset Video (Visible)":
-        v_files = sorted(glob.glob("Data/Video_V/*.mp4"))
-        if v_files:
-            video_name = st.sidebar.selectbox("Select Visible Video", [os.path.basename(f) for f in v_files[:50]])
-            video_path = os.path.join("Data/Video_V", video_name)
+        v_files = sorted(glob.glob(str(BASE_DIR / "Data" / "Video_V" / "*.mp4")))
+        root_v = sorted(glob.glob(str(BASE_DIR / "Demo_V_*.mp4")))
+        all_v = root_v + v_files
+        if all_v:
+            video_name = st.sidebar.selectbox("Select Visible Video", [os.path.basename(f) for f in all_v[:50]])
+            video_path = next(f for f in all_v if os.path.basename(f) == video_name)
             sensor_type = "V"
+        else:
+            st.sidebar.warning(f"No video found. Searched:\n{BASE_DIR / 'Demo_V_*.mp4'}\n{BASE_DIR / 'Data' / 'Video_V' / '*.mp4'}")
     elif source_type == "Upload Video File":
         uploaded = st.sidebar.file_uploader("Upload MP4 / AVI", type=["mp4", "avi", "mov"])
         if uploaded:
-            temp_path = os.path.join("temp_uploaded.mp4")
+            temp_path = str(BASE_DIR / "temp_uploaded.mp4")
             with open(temp_path, "wb") as f:
                 f.write(uploaded.read())
             video_path = temp_path
             sensor_type = st.sidebar.radio("Sensor Type", ["IR", "Visible"])
+    elif source_type == "4-Class Demo":
+        demo_class = st.sidebar.selectbox("Demo Target", ["Airplane", "Bird", "Drone", "Helicopter"])
+        demo_path = BASE_DIR / "Data" / "Demo" / demo_class / f"demo_{demo_class.lower()}.mp4"
+        if demo_path.exists():
+            video_path = str(demo_path)
+            sensor_type = "V"
+        else:
+            st.sidebar.warning(f"Demo video missing: {demo_path}")
+            video_path = None
     else:
         video_path = 0  # Webcam index
 
     st.sidebar.markdown("---")
+    st.sidebar.markdown("### ℹ️ Stream Info")
+    
+    if source_type == "4-Class Demo":
+        st.sidebar.markdown(f"""
+        <div style="background: rgba(15, 30, 45, 0.8); border: 1px solid #0ea5e9; padding: 10px; border-radius: 6px; margin-bottom: 10px;">
+            <span style="color: #64748b; font-size: 11px;">DEMO TARGET</span><br>
+            <span style="color: #e2e8f0; font-weight: bold; font-size: 16px;">{demo_class.upper()}</span><br>
+            <span style="color: #64748b; font-size: 11px;">SENSOR</span><br>
+            <span style="color: #e2e8f0; font-size: 14px;">VISIBLE</span><br>
+            <span style="color: #64748b; font-size: 11px;">MODEL</span><br>
+            <span style="color: #e2e8f0; font-size: 14px;">YOLOv8s AOD-4</span>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    st.sidebar.text(f"Selected Input: {source_type}")
+    if isinstance(video_path, str):
+        st.sidebar.text(f"Video Path: ...{video_path[-30:]}")
+    else:
+        st.sidebar.text(f"Video Path: {video_path}")
+    st.sidebar.text(f"Sensor Type: {sensor_type}")
+
+    st.sidebar.markdown("---")
     st.sidebar.markdown("### ⚙️ Detection & Tracking Settings")
-    conf_thresh = st.sidebar.slider("Detection Confidence", 0.10, 0.90, 0.25, 0.05)
+    default_conf = 0.40 if source_type == "4-Class Demo" else 0.25
+    conf_thresh = st.sidebar.slider("Detection Confidence", 0.10, 0.90, default_conf, 0.05)
     iou_thresh = st.sidebar.slider("NMS IoU Threshold", 0.20, 0.80, 0.45, 0.05)
-    enable_gan = st.sidebar.checkbox("Enable GAN Super-Resolution", value=True)
+    
+    default_gan = False if source_type == "4-Class Demo" else True
+    enable_gan = st.sidebar.checkbox("Enable GAN Super-Resolution", value=default_gan)
 
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 🌐 Geofence Configuration")

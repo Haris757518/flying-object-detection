@@ -108,25 +108,25 @@ class YOLO12Detector:
                     conf = float(box.conf[0].cpu().numpy())
                     raw_cls_id = int(box.cls[0].cpu().numpy())
 
-                    # If model was trained on our 4 classes
-                    if hasattr(results, 'names') and len(results.names) == 4:
-                        cls_name = results.names.get(raw_cls_id, "DRONE")
-                        cls_id = CLASS_TO_ID.get(cls_name, 2)
+                    # Robustly map Ultralytics class names to project internal constants
+                    raw_name = str(results.names.get(raw_cls_id, "")).upper() if hasattr(results, 'names') else ""
+                    
+                    if "AIRPLANE" in raw_name or "PLANE" in raw_name:
+                        cls_name = "AIRPLANE"
+                        cls_id = 0
+                    elif "BIRD" in raw_name:
+                        cls_name = "BIRD"
+                        cls_id = 1
+                    elif "HELICOPTER" in raw_name:
+                        cls_name = "HELICOPTER"
+                        cls_id = 3
+                    elif "DRONE" in raw_name or raw_name == "":
+                        # Default to DRONE only if there's no names dictionary but we have a detection
+                        cls_name = "DRONE"
+                        cls_id = 2
                     else:
-                        # Map COCO generic classes (e.g. airplane -> AIRPLANE, bird -> BIRD, etc.)
-                        raw_name = results.names.get(raw_cls_id, "").lower() if hasattr(results, 'names') else ""
-                        if "airplane" in raw_name or "plane" in raw_name:
-                            cls_name = "AIRPLANE"
-                            cls_id = 0
-                        elif "bird" in raw_name:
-                            cls_name = "BIRD"
-                            cls_id = 1
-                        elif "helicopter" in raw_name:
-                            cls_name = "HELICOPTER"
-                            cls_id = 3
-                        else:
-                            cls_name = "DRONE"
-                            cls_id = 2
+                        print(f"[YOLO12Detector] Warning: Unknown class detected: {raw_name} (ID: {raw_cls_id}). Skipping.")
+                        continue
 
                     detections.append({
                         "bbox": (float(xyxy[0]), float(xyxy[1]), float(xyxy[2]), float(xyxy[3])),

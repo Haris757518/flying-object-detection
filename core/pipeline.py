@@ -7,6 +7,7 @@ import os
 import cv2
 import numpy as np
 import time
+from pathlib import Path
 from models.gan_enhancer import GANEnhancer
 from models.temporal_transformer import SpatioTemporalBehaviorModel
 from models.yolo12_detector import YOLO12Detector
@@ -18,7 +19,10 @@ class DroneDefensePipeline:
     """
     Complete real-time aerial threat detection pipeline.
     """
-    def __init__(self, yolo_model="yolov8n.pt", conf_thresh=0.25, iou_thresh=0.45, device=None):
+    def __init__(self, yolo_model=None, conf_thresh=0.25, iou_thresh=0.45, device=None):
+        if yolo_model is None or yolo_model == "yolov8n.pt":
+            yolo_model = str(Path(__file__).parent.parent / "models" / "best_aod4.pt")
+            
         self.gan_enhancer = GANEnhancer(device=device)
         self.detector = YOLO12Detector(model_path=yolo_model, conf_thresh=conf_thresh, iou_thresh=iou_thresh, device=device)
         self.tracker = ByteTracker(high_thresh=conf_thresh, low_thresh=max(0.1, conf_thresh - 0.15))
@@ -117,6 +121,10 @@ class DroneDefensePipeline:
         (iw, ih), _ = cv2.getTextSize(info_text, cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.9, 1)
         cv2.putText(vis, info_text, (max(8, w - iw - 8), int(bar_h * 0.68)), cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.9, (200, 220, 240), max(1, thickness - 1), cv2.LINE_AA)
 
+        drawn_rects = []
+        def does_overlap(r1, r2):
+            return not (r1[2] < r2[0] or r1[0] > r2[2] or r1[3] < r2[1] or r1[1] > r2[3])
+
         for t in targets:
             bbox = [int(v) for v in t["bbox"]]
             xmin, ymin, xmax, ymax = bbox
@@ -124,8 +132,8 @@ class DroneDefensePipeline:
             track_id = t["track_id"]
             cls_name = t["class_name"]
             beh = t["behavior"]
-            dist = t["distance_m"]
             score = t["threat_score"]
+            conf = t.get("confidence", 0.0) * 100
 
             # Draw Motion History Trail
             history = t["history"]
@@ -143,18 +151,41 @@ class DroneDefensePipeline:
             cv2.line(vis, (xmax, ymax), (xmax - corner_len, ymax), (255, 255, 255), max(1, int(2 * scale)))
             cv2.line(vis, (xmax, ymax), (xmax, ymax - corner_len), (255, 255, 255), max(1, int(2 * scale)))
 
-            # Telemetry Tag
-            tag = f"#{track_id} {cls_name} {dist}m {beh}"
-            (tw, th), _ = cv2.getTextSize(tag, cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.85, 1)
-            tag_y = max(bar_h + th + 4, ymin - 4)
-            cv2.rectangle(vis, (xmin, tag_y - th - 4), (xmin + tw + 6, tag_y + 2), (10, 14, 20), -1)
-            cv2.putText(vis, tag, (xmin + 3, tag_y - 2), cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.85, color, max(1, thickness - 1), cv2.LINE_AA)
+            # Tags formatting
+            top_tag = f"#{track_id} {cls_name} {conf:.0f}%"
+            bot_tag = f"{beh} | RISK: {score:.0f}/100"
+            
+            (tw1, th1), _ = cv2.getTextSize(top_tag, cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.85, 1)
+            (tw2, th2), _ = cv2.getTextSize(bot_tag, cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.8, 1)
+            
+            # Top tag initial position
+            tag_y1 = max(bar_h + th1 + 4, ymin - 4)
+            r1 = [xmin, tag_y1 - th1 - 4, xmin + tw1 + 6, tag_y1 + 2]
+            
+            # Collision resolution for top tag
+            while any(does_overlap(r1, d_rect) for d_rect in drawn_rects) and r1[1] > bar_h + 10:
+                shift = th1 + 6
+                r1[1] -= shift
+                r1[3] -= shift
+                tag_y1 -= shift
+            drawn_rects.append(r1)
 
-            # Threat Badge Tag below box
-            badge_str = f"RISK: {score:.0f}/100"
-            (bw_t, bh_t), _ = cv2.getTextSize(badge_str, cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.8, 1)
-            badge_y = min(h - 4, ymax + bh_t + 4)
-            cv2.rectangle(vis, (xmin, badge_y - bh_t - 2), (xmin + bw_t + 4, badge_y + 2), (10, 14, 20), -1)
-            cv2.putText(vis, badge_str, (xmin + 2, badge_y), cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.8, color, max(1, thickness - 1), cv2.LINE_AA)
+            cv2.rectangle(vis, (r1[0], r1[1]), (r1[2], r1[3]), (10, 14, 20), -1)
+            cv2.putText(vis, top_tag, (r1[0] + 3, tag_y1 - 2), cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.85, color, max(1, thickness - 1), cv2.LINE_AA)
+
+            # Bottom tag initial position
+            tag_y2 = min(h - 4, ymax + th2 + 4)
+            r2 = [xmin, tag_y2 - th2 - 2, xmin + tw2 + 4, tag_y2 + 2]
+            
+            # Collision resolution for bottom tag
+            while any(does_overlap(r2, d_rect) for d_rect in drawn_rects) and r2[3] < h - 10:
+                shift = th2 + 6
+                r2[1] += shift
+                r2[3] += shift
+                tag_y2 += shift
+            drawn_rects.append(r2)
+
+            cv2.rectangle(vis, (r2[0], r2[1]), (r2[2], r2[3]), (10, 14, 20), -1)
+            cv2.putText(vis, bot_tag, (r2[0] + 2, tag_y2), cv2.FONT_HERSHEY_SIMPLEX, font_scale * 0.8, color, max(1, thickness - 1), cv2.LINE_AA)
 
         return vis

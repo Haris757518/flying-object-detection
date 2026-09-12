@@ -3,18 +3,47 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.cache
 
 # Virtual environments
 venv/
 .venv/
 env/
-.env
 
-# Large datasets & temp uploads
-Data/
+# Environment and Secrets
+.env
+secrets/
+*api_key*
+*secret*
+
+# Datasets
+datasets/
+AOD-4/
+MBAOD/
+VisDrone/
 dataset_yolo/
+Data/*
+!Data/Demo/
+
+# YOLO / Training / Runs
+runs/
+yolov8*.pt
+# EXCEPTION for best_aod4.pt
+!models/best_aod4.pt
+
+# Node
+node_modules/
+
+# Colab / Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Antigravity Scratch / Temp Files
+scratch/
 temp_uploaded.mp4
-*.tfrecord
+test_out.mp4
+test_frame_*.jpg
+tools/
 
 # IDE and OS
 .idea/

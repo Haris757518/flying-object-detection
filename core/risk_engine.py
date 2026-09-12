@@ -1,32 +1,27 @@
-"""
-Multi-Factor Threat Assessment and Risk Engine for Aerial Drone Defense.
-Evaluates Distance, Speed, Heading, Geofence Zone, Target Class, and Kinematic Behavior.
-"""
-
 from enum import Enum
 import numpy as np
 
 
 class ThreatLevel(Enum):
-    LOW = "LOW"            # 🟢
-    MEDIUM = "MEDIUM"      # 🟡
-    HIGH = "HIGH"          # 🟠
-    CRITICAL = "CRITICAL"  # 🔴
+    LOW = "LOW"            # 🟢 0-29
+    WATCH = "WATCH"        # 🟡 30-59
+    HIGH = "HIGH"          # 🟠 60-79
+    CRITICAL = "CRITICAL"  # 🔴 80-100
 
 
 CLASS_BASE_WEIGHTS = {
-    "DRONE": 1.0,
-    "HELICOPTER": 0.75,
-    "AIRPLANE": 0.40,
-    "BIRD": 0.05
+    "DRONE": 20.0,
+    "HELICOPTER": 15.0,
+    "AIRPLANE": 10.0,
+    "BIRD": 2.0
 }
 
 BEHAVIOR_MULTIPLIERS = {
-    "DIVING": 1.50,
-    "HOVERING": 1.40,
-    "APPROACHING": 1.30,
-    "TRANSITING": 0.85,
-    "NATURAL": 0.15
+    "DIVING": 20.0,
+    "HOVERING": 15.0,
+    "APPROACHING": 10.0,
+    "TRANSITING": 5.0,
+    "NATURAL": 0.0
 }
 
 # Real-world baseline size (meters)
@@ -65,11 +60,11 @@ class RiskEngine:
         Determine spatial risk zone based on estimated distance to asset/camera.
         """
         if distance_m <= self.no_fly_radius_m:
-            return "NO_FLY_ZONE", 1.0
+            return "NO_FLY_ZONE", 30.0
         elif distance_m <= self.warning_radius_m:
-            return "WARNING_ZONE", 0.6
+            return "WARNING_ZONE", 15.0
         else:
-            return "SAFE_ZONE", 0.2
+            return "SAFE_ZONE", 0.0
 
     def calculate_threat(self, track, behavior, kinematics, img_w=640, img_h=512):
         """
@@ -84,41 +79,31 @@ class RiskEngine:
         zone_name, zone_weight = self.evaluate_zone(distance_m)
 
         # 2. Class Weight
-        cls_weight = CLASS_BASE_WEIGHTS.get(class_name, 0.5)
+        cls_weight = CLASS_BASE_WEIGHTS.get(class_name, 10.0)
 
-        # 3. Behavior Multiplier
-        beh_mult = BEHAVIOR_MULTIPLIERS.get(behavior.upper(), 1.0)
+        # 3. Behavior Additive Score
+        beh_score = BEHAVIOR_MULTIPLIERS.get(behavior.upper(), 0.0)
 
-        # 4. Speed & Heading Factor
-        speed = kinematics.get("speed", 0.0)
-        speed_factor = min(1.0, speed / 3.0)  # Normalized speed score
+        # 4. Distance Proximity Score (closer -> higher score, max 30 points)
+        dist_score = max(0.0, (150.0 - min(150.0, distance_m)) / 150.0 * 30.0)
 
-        # 5. Distance Proximity Score (closer -> higher score)
-        dist_score = max(0.0, (150.0 - min(150.0, distance_m)) / 150.0)
-
-        # Multi-factor score formula
-        raw_score = (
-            (dist_score * 40.0) +
-            (zone_weight * 30.0) +
-            (speed_factor * 15.0) +
-            (cls_weight * 15.0)
-        ) * beh_mult * cls_weight
-
+        # Multi-factor score formula (Additive to max 100)
+        raw_score = dist_score + zone_weight + cls_weight + beh_score
         threat_score = float(np.clip(raw_score, 0.0, 100.0))
 
-        # Assign Threat Level
-        if threat_score >= 75.0:
+        # Assign Threat Level bands
+        if threat_score >= 80.0:
             level = ThreatLevel.CRITICAL
             color_bgr = (0, 0, 255)      # Red
             badge = "🔴 CRITICAL"
-        elif threat_score >= 50.0:
+        elif threat_score >= 60.0:
             level = ThreatLevel.HIGH
             color_bgr = (0, 128, 255)    # Orange
             badge = "🟠 HIGH"
-        elif threat_score >= 25.0:
-            level = ThreatLevel.MEDIUM
+        elif threat_score >= 30.0:
+            level = ThreatLevel.WATCH
             color_bgr = (0, 255, 255)    # Yellow
-            badge = "🟡 MEDIUM"
+            badge = "🟡 WATCH"
         else:
             level = ThreatLevel.LOW
             color_bgr = (0, 255, 0)      # Green
@@ -131,7 +116,7 @@ class RiskEngine:
             "color_bgr": color_bgr,
             "distance_m": round(distance_m, 1),
             "zone": zone_name,
-            "speed": round(speed, 2),
+            "speed": round(kinematics.get("speed", 0.0), 2),
             "heading": round(kinematics.get("heading", 0.0), 1),
             "behavior": behavior,
             "class_name": class_name,

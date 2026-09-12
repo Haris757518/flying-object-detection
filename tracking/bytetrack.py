@@ -112,7 +112,7 @@ class STrack:
         xc = box[0] + w / 2.0
         yc = box[1] + h / 2.0
         self.history.append((xc, yc, w, h))
-        if len(self.history) > 60:
+        if len(self.history) > 30:
             self.history.pop(0)
 
     @property
@@ -144,7 +144,7 @@ class ByteTracker:
     """
     ByteTrack Multi-Object Tracker algorithm.
     """
-    def __init__(self, high_thresh=0.45, low_thresh=0.15, match_thresh=0.7, max_time_lost=30):
+    def __init__(self, high_thresh=0.45, low_thresh=0.15, match_thresh=0.7, max_time_lost=60):
         self.high_thresh = high_thresh
         self.low_thresh = low_thresh
         self.match_thresh = match_thresh
