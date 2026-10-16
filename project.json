@@ -1,0 +1,37 @@
+{
+  "name": "Unified Airborne Object Detection Project",
+  "organized_on": "2026-10-16",
+  "paths": {
+    "hackathon_app": "code/hackathon_app",
+    "research_prototype": "code/research_prototype",
+    "dataset": "datasets/combined_dataset",
+    "dataset_yaml": "datasets/combined_dataset/data.yaml",
+    "original_sources": "datasets/source_material",
+    "legacy_merged_dataset": "datasets/legacy_merged",
+    "papers": "research/papers",
+    "reports": "documents/reports",
+    "research_results": "results/research_prototype",
+    "historical_results": "results/historical_hackathon",
+    "archives": "archives"
+  },
+  "classes": [
+    "airplane",
+    "bird",
+    "helicopter",
+    "kite",
+    "parachute",
+    "UAV"
+  ],
+  "dataset_images": {
+    "train": 38786,
+    "val": 8311,
+    "test": 8312,
+    "total": 55409
+  },
+  "status": {
+    "dataset": "Saved verification passed; recording-session independence is not fully established",
+    "research_metrics": "Hard-coded/simulated reporting values; not validated experiment results",
+    "model_training": "New six-class trained models have not been established",
+    "integration": "Application implementations remain separate pending integration"
+  }
+}

@@ -1,0 +1,14 @@
+metric,value
+Number of UNIQUE images removed due to exact duplicates,2209
+Number of UNIQUE images removed due to near duplicates,31893
+Number of duplicate MATCHES/pairs detected,34102
+Number of images that participated in multiple duplicate pairs,6640
+Number of images retained (Train),12157
+Number of UNIQUE images removed (Global),34102
+Number of images excluded because of cross-split conflict,8789
+Number of AOD-4 images retained,5737
+Number of MBAOD images retained,6420
+Hamming dist 0-2,21016
+Hamming dist 3-5,10877
+Hamming dist 6-8,0
+Hamming dist 9+,0

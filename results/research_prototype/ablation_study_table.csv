@@ -1,0 +1,5 @@
+Component Configuration,mAP@0.5,Gain
+Baseline (Real Data Only),0.864,+0.00%
++ CLAHE Contrast Enhancement,0.891,+2.70%
++ cGAN Synthetic Data Augmentation,0.932,+4.10%
++ Transformer Spatial Attention (Proposed),0.963,+3.10%

@@ -1,87 +1,72 @@
-# Drone-detection-dataset & Defense Pipeline
+# Unified Airborne Object Detection Project
 
-> **Complete Documentation Available:** See [DOCUMENTATION.md](file:///e:/vscodes/ai%20proj/DOCUMENTATION.md) for step-by-step guides for training, 10-fold CV, 5 hybrid models benchmark, and detection scripts.
+One project root with separated code, data, documentation, research, and results.
 
----
+| Folder | Contents |
+| --- | --- |
+| code/hackathon_app | Previous four-class dashboard, modules, checkpoints and required demo assets |
+| code/research_prototype | New desktop/web prototype and hybrid model definitions |
+| code/dataset_tools | Dataset repair utility; use explicit paths described below |
+| datasets/combined_dataset | Active corrected six-class dataset and metadata |
+| datasets/source_material | Original AOD/MBAOD files, exports, notebooks and source archives |
+| datasets/legacy_merged | Previous merged dataset, preserved for reference |
+| documents/reports | Hackathon and research Word reports |
+| documents/dataset_audits | Earlier dataset reports and duplicate review samples |
+| documents/research_results | Earlier generated research-results narrative |
+| documents/organization | Relocation plan, completed-move journal and verification |
+| research/papers | Five reference PDFs |
+| results/research_prototype | Simulated/hard-coded research tables and figures; not measured evidence |
+| results/historical_hackathon | Historical benchmark JSON and generated test media |
+| archives | Existing ZIPs, repair cache and original configuration/code snapshots |
 
-### Quick Commands
+## Current state
 
-```powershell
-# 1. Run 10-Step ML Workflow on AOD 4 (Ingest -> Preprocess -> Leakage -> CLAHE -> 10-Fold CV -> GAN -> Train -> Diagnostics -> Rectify -> Test)
-python run_workflow.py --data-dir "Data/AOD 4" --epochs 10 --enable-clahe --gan-aug --auto-rectify
+Dataset: 55,409 images (38,786 train / 8,311 validation / 8,312 test).
+Class IDs: 0 airplane, 1 bird, 2 helicopter, 3 kite, 4 parachute, 5 UAV.
+Training configuration: datasets/combined_dataset/data.yaml.
 
-# 2. Run 5 Hybrid Techniques Benchmark (YOLO12+CNN, LSTM, Transformer, BiLSTM+Attn, GAN+Transformer)
-python benchmark_5_techniques.py --data-dir "Data/AOD 4" --epochs 6
+The research results supplied with the prototype are generated from constants.
+Do not present them as measured training/evaluation results. New six-class
+training, actual evaluation, and integration of trained hybrid components remain
+future work. Organizing folders does not complete those stages.
 
-# 3. Launch Interactive Defense Dashboard
-python -m streamlit run dashboard.py
+The original applications remain separate so that their behavior can be reviewed
+before integration. Checkpoints and required input videos stay with their apps
+to preserve existing relative lookups. No datasets or model weights were removed.
 
-# 4. Run Automated Test Suite
-python -m unittest test_suite.py
-```
+## Launch existing applications
 
----
+Use a Python environment containing the appropriate application dependencies.
+From PowerShell in this project root:
 
-Dataset containing IR, visible and audio data that can be used to train and evaluate drone detection sensors and systems.
+    .\launch_hackathon.ps1
+    .\launch_research.ps1
 
-Video labels: Airplane, Bird, Drone and Helicopter.
-Audio labels: Drone, Helicopter and Background.
+These launchers select each app's working directory. They do not install packages
+or certify model correctness. The research launcher defaults to the web UI;
+use -Module 8 for its desktop UI. Its old training utilities still reference
+DS/comb DSF and must be reviewed and configured before training. Do not run them
+against the corrected dataset until the known leakage issues are fixed.
 
-The dataset contains 90 audio clips and 650 videos (365 IR and 285 visible). If all images are extracted from all the videos the dataset has a total of 203328 annotated images.
+To run only the existing dataset verifier after relocation:
 
-Free to download, use and edit.
-Descriptions of the videos are found in "Video_dataset_description.xlsx".
-The videos can be used as they are, or together with the respective label-files.
-The annotations are in .mat-format and have been done using the Matlab video labeler.
-Some instructions and examples are found in "Create_a_dataset_from_videos_and_labels.m"
+    python code/dataset_tools/repair_merged_dataset.py verify --root "D:\ai\datasets\source_material" --output "D:\ai\datasets\combined_dataset"
 
-## Reading the labels in Python (no MATLAB required)
+## Historical paths and existing ZIPs
 
-The `.mat` label files use MATLAB Computer Vision Toolbox `groundTruth`
-MCOS objects, which `scipy.io.loadmat`, `pymatreader`, and `mat73` cannot
-decode (see [Issue #3](https://github.com/DroneDetectionThesis/Drone-detection-dataset/issues/3)).
+Manifest source paths, historical reports, archived repair caches and existing
+ZIP contents retain their original D:\ai paths. They are provenance records,
+not current training configuration. Use project.json and the relocation plan
+to resolve their new locations. Original ZIPs were not rebuilt. Update the path
+in a runtime copy of data.yaml when transferring the dataset to another machine.
 
-You can now read the labels in pure Python with
-[**mcos-decoder**](https://github.com/bozdemir/mcos-decoder)
-([PyPI](https://pypi.org/project/mcos-decoder/),
-[DOI 10.5281/zenodo.19728531](https://doi.org/10.5281/zenodo.19728531)):
+Dataset group checks reduce leakage but cannot prove full recording independence
+where MBAOD source-video identifiers are unavailable. Preserve that limitation.
 
-```bash
-pip install mcos-decoder
-```
+## Next work
 
-```python
-from mcos_decoder import load_groundtruth
-
-bboxes = load_groundtruth("Data/Video_IR/IR_DRONE_001_LABELS.mat")
-# → list[(x, y, w, h) | None] of length n_frames
-# Each entry is the per-frame bbox in pixels, or None when target absent.
-
-for frame_idx, bbox in enumerate(bboxes, start=1):
-    if bbox is None:
-        print(f"Frame {frame_idx}: target absent")
-    else:
-        x, y, w, h = bbox
-        print(f"Frame {frame_idx}: bbox=({x:.1f}, {y:.1f}, {w:.1f}, {h:.1f})")
-```
-
-The decoder has been validated on all 365 IR sequences across the four
-target classes (AIRPLANE, BIRD, DRONE, HELICOPTER) — bbox counts match
-the official MATLAB reference. See
-[mcos-decoder/README.md](https://github.com/bozdemir/mcos-decoder#readme)
-for details.
-
-Please cite:  
-"Svanström F. (2020). Drone Detection and Classification using Machine Learning and Sensor Fusion".
-[Link to thesis](https://hh.diva-portal.org/smash/get/diva2:1434532/FULLTEXT02.pdf)  
-or  
-"Svanström F, Englund C and Alonso-Fernandez F. (2020). Real-Time Drone Detection and Tracking With Visible, Thermal and Acoustic Sensors".
-[Link to ICPR2020-paper](https://arxiv.org/pdf/2007.07396.pdf)  
-or  
-"Svanström F, Alonso-Fernandez F and Englund C. (2021). A Dataset for Multi-Sensor Drone Detection".
-[Link to Data in Brief](https://www.sciencedirect.com/science/article/pii/S2352340921007976#!)
-
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5500576.svg)](http://dx.doi.org/10.5281/zenodo.5500576)
-
-Contact:  
-DroneDetectionThesis@gmail.com
+1. Select and train a real six-class baseline on the frozen dataset splits.
+2. Replace simulated result generation with actual prediction-based evaluation.
+3. Train and integrate external classifiers and the selected GAN approach.
+4. Correct tracking, class mapping and validation leakage issues.
+5. Consolidate the selected implementation and update reports using measured data.

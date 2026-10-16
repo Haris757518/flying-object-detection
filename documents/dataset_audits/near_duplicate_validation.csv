@@ -1,0 +1,101 @@
+image_a,image_b,pHash_distance,ssim_score,category,description,recommendation
+pair_000_dist_4_A_MBAOD.jpg,pair_000_dist_4_B_MBAOD.jpg,4,0.9945,A,Same image / exact duplicate,Safe to drop
+pair_001_dist_0_A_AOD4.jpg,pair_001_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_002_dist_0_A_AOD4.jpg,pair_002_dist_0_B_AOD4.jpg,0,0.9778,B,Same image with minor compression,Safe to drop
+pair_003_dist_2_A_MBAOD.jpg,pair_003_dist_2_B_MBAOD.jpg,2,0.5137,D,Different images of the same object/class,False Positive - Do not drop
+pair_004_dist_4_A_AOD4.jpg,pair_004_dist_4_B_MBAOD.jpg,4,0.9852,A,Same image / exact duplicate,Safe to drop
+pair_005_dist_2_A_AOD4.jpg,pair_005_dist_2_B_AOD4.jpg,2,0.9002,B,Same image with minor compression,Safe to drop
+pair_006_dist_2_A_AOD4.jpg,pair_006_dist_2_B_AOD4.jpg,2,0.9905,A,Same image / exact duplicate,Safe to drop
+pair_007_dist_0_A_AOD4.jpg,pair_007_dist_0_B_AOD4.jpg,0,0.9654,B,Same image with minor compression,Safe to drop
+pair_008_dist_0_A_MBAOD.jpg,pair_008_dist_0_B_MBAOD.jpg,0,0.6569,D,Different images of the same object/class,False Positive - Do not drop
+pair_009_dist_4_A_AOD4.jpg,pair_009_dist_4_B_AOD4.jpg,4,0.5378,D,Different images of the same object/class,False Positive - Do not drop
+pair_010_dist_2_A_MBAOD.jpg,pair_010_dist_2_B_MBAOD.jpg,2,0.9187,B,Same image with minor compression,Safe to drop
+pair_011_dist_4_A_MBAOD.jpg,pair_011_dist_4_B_MBAOD.jpg,4,0.506,D,Different images of the same object/class,False Positive - Do not drop
+pair_012_dist_0_A_MBAOD.jpg,pair_012_dist_0_B_MBAOD.jpg,0,0.7568,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_013_dist_2_A_MBAOD.jpg,pair_013_dist_2_B_MBAOD.jpg,2,0.8887,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_014_dist_0_A_AOD4.jpg,pair_014_dist_0_B_AOD4.jpg,0,0.937,B,Same image with minor compression,Safe to drop
+pair_015_dist_0_A_MBAOD.jpg,pair_015_dist_0_B_MBAOD.jpg,0,0.8909,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_016_dist_2_A_AOD4.jpg,pair_016_dist_2_B_AOD4.jpg,2,0.8912,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_017_dist_4_A_AOD4.jpg,pair_017_dist_4_B_AOD4.jpg,4,0.9733,B,Same image with minor compression,Safe to drop
+pair_018_dist_2_A_AOD4.jpg,pair_018_dist_2_B_AOD4.jpg,2,0.9456,B,Same image with minor compression,Safe to drop
+pair_019_dist_2_A_AOD4.jpg,pair_019_dist_2_B_AOD4.jpg,2,0.9598,B,Same image with minor compression,Safe to drop
+pair_020_dist_2_A_AOD4.jpg,pair_020_dist_2_B_AOD4.jpg,2,0.9984,A,Same image / exact duplicate,Safe to drop
+pair_021_dist_0_A_AOD4.jpg,pair_021_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_022_dist_4_A_MBAOD.jpg,pair_022_dist_4_B_MBAOD.jpg,4,0.9923,A,Same image / exact duplicate,Safe to drop
+pair_023_dist_2_A_MBAOD.jpg,pair_023_dist_2_B_MBAOD.jpg,2,0.9604,B,Same image with minor compression,Safe to drop
+pair_024_dist_0_A_AOD4.jpg,pair_024_dist_0_B_AOD4.jpg,0,0.9883,A,Same image / exact duplicate,Safe to drop
+pair_025_dist_2_A_MBAOD.jpg,pair_025_dist_2_B_MBAOD.jpg,2,0.9066,B,Same image with minor compression,Safe to drop
+pair_026_dist_0_A_AOD4.jpg,pair_026_dist_0_B_MBAOD.jpg,0,0.9717,B,Same image with minor compression,Safe to drop
+pair_027_dist_4_A_MBAOD.jpg,pair_027_dist_4_B_MBAOD.jpg,4,0.5236,D,Different images of the same object/class,False Positive - Do not drop
+pair_028_dist_2_A_MBAOD.jpg,pair_028_dist_2_B_MBAOD.jpg,2,0.9336,B,Same image with minor compression,Safe to drop
+pair_029_dist_4_A_MBAOD.jpg,pair_029_dist_4_B_MBAOD.jpg,4,0.483,D,Different images of the same object/class,False Positive - Do not drop
+pair_030_dist_4_A_MBAOD.jpg,pair_030_dist_4_B_MBAOD.jpg,4,0.8508,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_031_dist_2_A_AOD4.jpg,pair_031_dist_2_B_AOD4.jpg,2,0.8845,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_032_dist_0_A_AOD4.jpg,pair_032_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_033_dist_0_A_AOD4.jpg,pair_033_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_034_dist_0_A_MBAOD.jpg,pair_034_dist_0_B_MBAOD.jpg,0,0.9669,B,Same image with minor compression,Safe to drop
+pair_035_dist_0_A_AOD4.jpg,pair_035_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_036_dist_0_A_AOD4.jpg,pair_036_dist_0_B_AOD4.jpg,0,0.9525,B,Same image with minor compression,Safe to drop
+pair_037_dist_0_A_MBAOD.jpg,pair_037_dist_0_B_MBAOD.jpg,0,0.8795,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_038_dist_2_A_AOD4.jpg,pair_038_dist_2_B_AOD4.jpg,2,0.9797,B,Same image with minor compression,Safe to drop
+pair_039_dist_4_A_MBAOD.jpg,pair_039_dist_4_B_MBAOD.jpg,4,0.748,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_040_dist_0_A_AOD4.jpg,pair_040_dist_0_B_AOD4.jpg,0,0.9599,B,Same image with minor compression,Safe to drop
+pair_041_dist_2_A_AOD4.jpg,pair_041_dist_2_B_AOD4.jpg,2,0.9471,B,Same image with minor compression,Safe to drop
+pair_042_dist_2_A_MBAOD.jpg,pair_042_dist_2_B_MBAOD.jpg,2,0.9508,B,Same image with minor compression,Safe to drop
+pair_043_dist_4_A_AOD4.jpg,pair_043_dist_4_B_AOD4.jpg,4,0.9005,B,Same image with minor compression,Safe to drop
+pair_044_dist_0_A_AOD4.jpg,pair_044_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_045_dist_0_A_AOD4.jpg,pair_045_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_046_dist_2_A_AOD4.jpg,pair_046_dist_2_B_AOD4.jpg,2,0.9579,B,Same image with minor compression,Safe to drop
+pair_047_dist_0_A_AOD4.jpg,pair_047_dist_0_B_AOD4.jpg,0,0.9953,A,Same image / exact duplicate,Safe to drop
+pair_048_dist_0_A_MBAOD.jpg,pair_048_dist_0_B_MBAOD.jpg,0,0.9972,A,Same image / exact duplicate,Safe to drop
+pair_049_dist_2_A_MBAOD.jpg,pair_049_dist_2_B_MBAOD.jpg,2,0.8114,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_050_dist_0_A_AOD4.jpg,pair_050_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_051_dist_4_A_AOD4.jpg,pair_051_dist_4_B_AOD4.jpg,4,0.8402,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_052_dist_4_A_AOD4.jpg,pair_052_dist_4_B_AOD4.jpg,4,0.2819,E,Clearly different images,False Positive - Do not drop
+pair_053_dist_0_A_AOD4.jpg,pair_053_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_054_dist_2_A_AOD4.jpg,pair_054_dist_2_B_AOD4.jpg,2,0.9422,B,Same image with minor compression,Safe to drop
+pair_055_dist_0_A_AOD4.jpg,pair_055_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_056_dist_4_A_AOD4.jpg,pair_056_dist_4_B_AOD4.jpg,4,0.694,D,Different images of the same object/class,False Positive - Do not drop
+pair_057_dist_0_A_AOD4.jpg,pair_057_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_058_dist_0_A_MBAOD.jpg,pair_058_dist_0_B_MBAOD.jpg,0,0.694,D,Different images of the same object/class,False Positive - Do not drop
+pair_059_dist_0_A_AOD4.jpg,pair_059_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_060_dist_4_A_AOD4.jpg,pair_060_dist_4_B_AOD4.jpg,4,0.9698,B,Same image with minor compression,Safe to drop
+pair_061_dist_0_A_AOD4.jpg,pair_061_dist_0_B_AOD4.jpg,0,0.9655,B,Same image with minor compression,Safe to drop
+pair_062_dist_4_A_MBAOD.jpg,pair_062_dist_4_B_MBAOD.jpg,4,0.7874,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_063_dist_4_A_AOD4.jpg,pair_063_dist_4_B_AOD4.jpg,4,0.9841,A,Same image / exact duplicate,Safe to drop
+pair_064_dist_0_A_MBAOD.jpg,pair_064_dist_0_B_MBAOD.jpg,0,0.9022,B,Same image with minor compression,Safe to drop
+pair_065_dist_4_A_AOD4.jpg,pair_065_dist_4_B_MBAOD.jpg,4,0.9887,A,Same image / exact duplicate,Safe to drop
+pair_066_dist_4_A_MBAOD.jpg,pair_066_dist_4_B_MBAOD.jpg,4,0.9821,A,Same image / exact duplicate,Safe to drop
+pair_067_dist_4_A_MBAOD.jpg,pair_067_dist_4_B_MBAOD.jpg,4,0.6657,D,Different images of the same object/class,False Positive - Do not drop
+pair_068_dist_0_A_AOD4.jpg,pair_068_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_069_dist_4_A_AOD4.jpg,pair_069_dist_4_B_AOD4.jpg,4,0.9332,B,Same image with minor compression,Safe to drop
+pair_070_dist_2_A_MBAOD.jpg,pair_070_dist_2_B_MBAOD.jpg,2,0.9476,B,Same image with minor compression,Safe to drop
+pair_071_dist_0_A_AOD4.jpg,pair_071_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_072_dist_2_A_AOD4.jpg,pair_072_dist_2_B_AOD4.jpg,2,0.9795,B,Same image with minor compression,Safe to drop
+pair_073_dist_0_A_AOD4.jpg,pair_073_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_074_dist_4_A_MBAOD.jpg,pair_074_dist_4_B_MBAOD.jpg,4,0.8517,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_075_dist_2_A_MBAOD.jpg,pair_075_dist_2_B_MBAOD.jpg,2,0.9388,B,Same image with minor compression,Safe to drop
+pair_076_dist_4_A_MBAOD.jpg,pair_076_dist_4_B_MBAOD.jpg,4,0.6202,D,Different images of the same object/class,False Positive - Do not drop
+pair_077_dist_4_A_AOD4.jpg,pair_077_dist_4_B_AOD4.jpg,4,0.9882,A,Same image / exact duplicate,Safe to drop
+pair_078_dist_4_A_MBAOD.jpg,pair_078_dist_4_B_MBAOD.jpg,4,0.301,E,Clearly different images,False Positive - Do not drop
+pair_079_dist_2_A_AOD4.jpg,pair_079_dist_2_B_MBAOD.jpg,2,0.957,B,Same image with minor compression,Safe to drop
+pair_080_dist_4_A_MBAOD.jpg,pair_080_dist_4_B_MBAOD.jpg,4,0.4899,D,Different images of the same object/class,False Positive - Do not drop
+pair_081_dist_0_A_AOD4.jpg,pair_081_dist_0_B_AOD4.jpg,0,0.9346,B,Same image with minor compression,Safe to drop
+pair_082_dist_4_A_AOD4.jpg,pair_082_dist_4_B_AOD4.jpg,4,0.8992,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_083_dist_4_A_MBAOD.jpg,pair_083_dist_4_B_MBAOD.jpg,4,0.9873,A,Same image / exact duplicate,Safe to drop
+pair_084_dist_2_A_AOD4.jpg,pair_084_dist_2_B_AOD4.jpg,2,0.9836,A,Same image / exact duplicate,Safe to drop
+pair_085_dist_2_A_AOD4.jpg,pair_085_dist_2_B_AOD4.jpg,2,0.9765,B,Same image with minor compression,Safe to drop
+pair_086_dist_0_A_AOD4.jpg,pair_086_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_087_dist_4_A_AOD4.jpg,pair_087_dist_4_B_AOD4.jpg,4,0.9449,B,Same image with minor compression,Safe to drop
+pair_088_dist_4_A_AOD4.jpg,pair_088_dist_4_B_MBAOD.jpg,4,0.9179,B,Same image with minor compression,Safe to drop
+pair_089_dist_2_A_AOD4.jpg,pair_089_dist_2_B_MBAOD.jpg,2,0.9544,B,Same image with minor compression,Safe to drop
+pair_090_dist_4_A_AOD4.jpg,pair_090_dist_4_B_MBAOD.jpg,4,0.8024,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_091_dist_0_A_AOD4.jpg,pair_091_dist_0_B_AOD4.jpg,0,0.864,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_092_dist_0_A_MBAOD.jpg,pair_092_dist_0_B_AOD4.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_093_dist_4_A_AOD4.jpg,pair_093_dist_4_B_AOD4.jpg,4,0.8617,C,Same scene with minor augmentation/weather change,Safe to drop
+pair_094_dist_2_A_AOD4.jpg,pair_094_dist_2_B_AOD4.jpg,2,0.4271,D,Different images of the same object/class,False Positive - Do not drop
+pair_095_dist_0_A_AOD4.jpg,pair_095_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_096_dist_4_A_AOD4.jpg,pair_096_dist_4_B_AOD4.jpg,4,0.989,A,Same image / exact duplicate,Safe to drop
+pair_097_dist_0_A_AOD4.jpg,pair_097_dist_0_B_MBAOD.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop
+pair_098_dist_2_A_AOD4.jpg,pair_098_dist_2_B_MBAOD.jpg,2,0.9791,B,Same image with minor compression,Safe to drop
+pair_099_dist_0_A_MBAOD.jpg,pair_099_dist_0_B_AOD4.jpg,0,1.0,A,Same image / exact duplicate,Safe to drop

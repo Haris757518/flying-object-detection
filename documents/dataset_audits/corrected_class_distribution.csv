@@ -1,0 +1,7 @@
+class,unique_images_containing_class,bounding_boxes,percentage_of_images,percentage_of_boxes
+airplane,2375,3518,19.54%,17.05%
+bird,3040,7037,25.01%,34.10%
+helicopter,2129,3224,17.51%,15.62%
+kite,1354,2291,11.14%,11.10%
+parachute,1846,2495,15.18%,12.09%
+UAV,1872,2070,15.40%,10.03%

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Overall Comparative Evaluation Across All Hybrid Deep Learning Architectures.}
+\label{tab:master_benchmark}
+\begin{tabular}{lrrrrrrlr}
+\toprule
+Architecture & Precision & Recall & F1-Score & mAP@0.5 & mAP@0.5:0.95 & FPS & Params & Bird->Drone False Alarms (%) \\
+\midrule
+Baseline YOLO12 & 0.837 & 0.810 & 0.823 & 0.853 & 0.571 & 42.500 & 3.2M & 12.845 \\
+Technique 1 (YOLO12 + CNN) & 0.881 & 0.850 & 0.865 & 0.893 & 0.620 & 34.200 & 5.8M & 10.008 \\
+Technique 2 (YOLO12 + LSTM) & 0.891 & 0.868 & 0.880 & 0.908 & 0.640 & 32.800 & 4.6M & 9.377 \\
+Technique 3 (YOLO12 + Transformer) & 0.916 & 0.893 & 0.904 & 0.930 & 0.679 & 28.500 & 7.4M & 7.604 \\
+Technique 4 (YOLO12 + BiLSTM + Attention) & 0.925 & 0.907 & 0.916 & 0.940 & 0.697 & 27.100 & 6.9M & 6.974 \\
+Technique 5: Proposed (YOLO12 + GAN + Transformer) & 0.951 & 0.938 & 0.944 & 0.963 & 0.737 & 26.400 & 7.6M & 0.788 \\
+\bottomrule
+\end{tabular}
+\end{table}

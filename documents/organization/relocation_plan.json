@@ -1,0 +1,194 @@
+[
+  {
+    "source": "D:\\ai\\ai_hack",
+    "destination": "D:\\ai\\code\\hackathon_app"
+  },
+  {
+    "source": "D:\\ai\\ai",
+    "destination": "D:\\ai\\code\\research_prototype"
+  },
+  {
+    "source": "D:\\ai\\AI DETECTION MODEL",
+    "destination": "D:\\ai\\datasets\\source_material"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\combined_dataset_fixed",
+    "destination": "D:\\ai\\datasets\\combined_dataset"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\combined_dataset",
+    "destination": "D:\\ai\\datasets\\legacy_merged"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\.dataset_repair_work",
+    "destination": "D:\\ai\\archives\\dataset_repair_work"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\near_duplicate_sample",
+    "destination": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\combined_dataset_fixed.zip",
+    "destination": "D:\\ai\\archives\\packages\\combined_dataset_fixed.zip"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\combined_train_distribution_after_dedup.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\combined_train_distribution_after_dedup.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\corrected_class_distribution.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\corrected_class_distribution.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\dataset_report_before_merge.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\dataset_report_before_merge.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\DEDUPLICATION_AUDIT.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\DEDUPLICATION_AUDIT.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\DEDUPLICATION_SUMMARY.md",
+    "destination": "D:\\ai\\documents\\dataset_audits\\DEDUPLICATION_SUMMARY.md"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\duplicate_report.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\duplicate_report.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\generate_notebook.py",
+    "destination": "D:\\ai\\archives\\code_snapshots\\generate_notebook_original.py"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\mbaod_subset_audit.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\mbaod_subset_audit.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\near_duplicate_validation.csv",
+    "destination": "D:\\ai\\documents\\dataset_audits\\near_duplicate_validation.csv"
+  },
+  {
+    "source": "D:\\ai\\datasets\\source_material\\NEAR_DUPLICATE_VALIDATION.md",
+    "destination": "D:\\ai\\documents\\dataset_audits\\NEAR_DUPLICATE_VALIDATION.md"
+  },
+  {
+    "source": "D:\\ai\\code\\research_prototype\\research_paper_results",
+    "destination": "D:\\ai\\results\\research_prototype"
+  },
+  {
+    "source": "D:\\ai\\code\\research_prototype\\RESEARCH_PAPER_RESULTS.md",
+    "destination": "D:\\ai\\documents\\research_results\\RESEARCH_PAPER_RESULTS.md"
+  },
+  {
+    "source": "D:\\ai\\code\\research_prototype\\Papers.zip",
+    "destination": "D:\\ai\\archives\\packages\\research_Papers.zip"
+  },
+  {
+    "source": "D:\\ai\\code\\research_prototype\\simulation_output.avi",
+    "destination": "D:\\ai\\results\\research_prototype\\media\\simulation_output.avi"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\Drone_Detection_Detailed_Implementation_Report.docx",
+    "destination": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection_Detailed_Implementation_Report.docx"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\Drone_Detection_Technical_Report_Updated.backup_20261007_222052.docx",
+    "destination": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection_Technical_Report_Updated.backup_20261007_222052.docx"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\Drone_Detection_Technical_Report_Updated.docx",
+    "destination": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection_Technical_Report_Updated.docx"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\Drone_Detection.docx",
+    "destination": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection.docx"
+  },
+  {
+    "source": "D:\\ai\\code\\research_prototype\\Flying object Detection using Hybrid deep learning Techniques review 1.docx",
+    "destination": "D:\\ai\\documents\\reports\\research\\Flying object Detection using Hybrid deep learning Techniques review 1.docx"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\benchmark_aod_results.json",
+    "destination": "D:\\ai\\results\\historical_hackathon\\benchmark_aod_results.json"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\benchmark_dataset_yolo_results.json",
+    "destination": "D:\\ai\\results\\historical_hackathon\\benchmark_dataset_yolo_results.json"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\benchmark_hybrid_results.json",
+    "destination": "D:\\ai\\results\\historical_hackathon\\benchmark_hybrid_results.json"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\temp_uploaded.mp4",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\temp_uploaded.mp4"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_annotated_ir.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_annotated_ir.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_frame_0.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_frame_0.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_frame_120.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_frame_120.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_frame_30.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_frame_30.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_frame_60.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_frame_60.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_frame_90.jpg",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_frame_90.jpg"
+  },
+  {
+    "source": "D:\\ai\\code\\hackathon_app\\test_out.mp4",
+    "destination": "D:\\ai\\results\\historical_hackathon\\media\\test_out.mp4"
+  },
+  {
+    "source": "D:\\ai\\ai_hack.zip",
+    "destination": "D:\\ai\\archives\\packages\\ai_hack.zip"
+  },
+  {
+    "source": "D:\\ai\\Drone_Detection_Source_Code.zip",
+    "destination": "D:\\ai\\archives\\packages\\Drone_Detection_Source_Code.zip"
+  },
+  {
+    "source": "D:\\ai\\DroneShield-AI (1).pdf",
+    "destination": "D:\\ai\\research\\papers\\DroneShield-AI (1).pdf"
+  },
+  {
+    "source": "D:\\ai\\International Journal of Aerospace Engineering - 2026 - Xie - Detection of Low‐Altitude Unmanned Vehicle and Flying Bird by (1).pdf",
+    "destination": "D:\\ai\\research\\papers\\International Journal of Aerospace Engineering - 2026 - Xie - Detection of Low‐Altitude Unmanned Vehicle and Flying Bird by (1).pdf"
+  },
+  {
+    "source": "D:\\ai\\repair_merged_dataset.py",
+    "destination": "D:\\ai\\code\\dataset_tools\\repair_merged_dataset.py"
+  },
+  {
+    "source": "D:\\ai\\SDD-YOLO A Small-Target Detection Framework (1).pdf",
+    "destination": "D:\\ai\\research\\papers\\SDD-YOLO A Small-Target Detection Framework (1).pdf"
+  },
+  {
+    "source": "D:\\ai\\sensors-26-00755-v2 (1).pdf",
+    "destination": "D:\\ai\\research\\papers\\sensors-26-00755-v2 (1).pdf"
+  },
+  {
+    "source": "D:\\ai\\Towards Airborne Object Detection A Deep (1).pdf",
+    "destination": "D:\\ai\\research\\papers\\Towards Airborne Object Detection A Deep (1).pdf"
+  },
+  {
+    "source": "D:\\ai\\datasets\\combined_dataset\\repair_merged_dataset.py",
+    "destination": "D:\\ai\\archives\\code_snapshots\\repair_merged_dataset_used.py"
+  },
+  {
+    "source": "D:\\ai\\datasets\\combined_dataset\\generate_notebook_mapping_corrected.py",
+    "destination": "D:\\ai\\archives\\code_snapshots\\generate_notebook_mapping_corrected.py"
+  }
+]

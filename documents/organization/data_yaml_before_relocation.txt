@@ -1,0 +1,12 @@
+path: "D:/ai/AI DETECTION MODEL/combined_dataset_fixed"
+train: train/images
+val: val/images
+test: test/images
+nc: 6
+names:
+  0: airplane
+  1: bird
+  2: helicopter
+  3: kite
+  4: parachute
+  5: UAV

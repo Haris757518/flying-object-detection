@@ -1,0 +1,7 @@
+Model,Precision,Recall,F1-Score,mAP@0.5,mAP@0.5:0.95,FPS,Params (M),Bird-Drone Confusion (%)
+Baseline YOLO12,0.842,0.815,0.828,0.864,0.582,42.5,3.2,8.4
+Technique 1 (YOLO12 + CNN),0.887,0.852,0.869,0.898,0.627,34.2,5.8,4.1
+Technique 2 (YOLO12 + LSTM),0.895,0.871,0.883,0.912,0.645,32.8,4.6,3.2
+Technique 3 (YOLO12 + Transformer),0.918,0.894,0.906,0.931,0.683,28.5,7.4,2.5
+Technique 4 (YOLO12 + BiLSTM + Attention),0.926,0.908,0.917,0.942,0.701,27.1,6.9,1.9
+Technique 5: Proposed (YOLO12 + GAN + Transformer),0.951,0.938,0.944,0.963,0.738,26.4,7.6,0.8

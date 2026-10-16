@@ -1,52 +1,32 @@
-# Python cache
+# Large Datasets & Archives
+datasets/
+archives/
+.dataset_repair_work/
+combined_dataset/
+combined_dataset_fixed/
+legacy_merged/
+source_material/
+
+# Python Cache & Bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
-*.cache
+*.cache/
 
-# Virtual environments
+# Virtual Environments
 venv/
 .venv/
 env/
-
-# Environment and Secrets
 .env
-secrets/
-*api_key*
-*secret*
 
-# Datasets
-datasets/
-AOD-4/
-MBAOD/
-VisDrone/
-dataset_yolo/
-Data/*
-!Data/Demo/
-
-# YOLO / Training / Runs
-runs/
-yolov8*.pt
-# EXCEPTION for best_aod4.pt
-!models/best_aod4.pt
-
-# Node
-node_modules/
-
-# Colab / Notebooks
-.ipynb_checkpoints/
-*.ipynb
-
-# Antigravity Scratch / Temp Files
-scratch/
-temp_uploaded.mp4
-test_out.mp4
-test_frame_*.jpg
-tools/
-
-# IDE and OS
+# IDE and OS Files
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Scratch and Temporary files
+scratch/
+temp_uploaded.mp4
