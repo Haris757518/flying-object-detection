@@ -1,6 +1,0 @@
-subset,images,annotations,airplane,bird,helicopter,kite,parachute,uav
-Test - Adverse Weather Conditions,14076,21744,3624,3624,3624,3624,3624,3624
-Test - Clean,3519,5436,906,906,906,906,906,906
-Train - V1 - Clean,24506,40092,6682,6682,6682,6682,6682,6682
-Train - V2 - Weather-Augmented,49012,80184,13364,13364,13364,13364,13364,13364
-Vaild,7081,11472,1912,1912,1912,1912,1912,1912

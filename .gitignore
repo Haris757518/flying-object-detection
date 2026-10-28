@@ -1,32 +1,30 @@
-# Large Datasets & Archives
+# Local datasets, trained weights, large research PDFs and portable bundles
 datasets/
-archives/
-.dataset_repair_work/
-combined_dataset/
-combined_dataset_fixed/
-legacy_merged/
-source_material/
-
-# Python Cache & Bytecode
+notebooks/*.zip
+papers/pdf/
+papers/supplemental/
+*.pth
+*.onnx
+code/dashboard/results/
+code/dashboard/vendor/
+*.log
 __pycache__/
 *.py[cod]
-*$py.class
 .pytest_cache/
-*.cache/
-
-# Virtual Environments
+.venv*/
 venv/
-.venv/
 env/
 .env
-
-# IDE and OS Files
+.env.*
+!.env.example
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Scratch and Temporary files
-scratch/
-temp_uploaded.mp4
+papers/**/*.pdf
+papers/**/*.PDF
+*.zip
+documents/old_reviews/dataset_preparation_cache/
+documents/old_reviews/dataset_audits/

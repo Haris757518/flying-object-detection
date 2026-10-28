@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "images": {
+    "train": 38786,
+    "test": 8312,
+    "val": 8311
+  },
+  "total_images": 55409,
+  "unique_image_hashes": 55409,
+  "cross_split_group_leaks": 0,
+  "invalid_or_missing_records": 0,
+  "errors": [],
+  "copy_hashes_verified": true
+}

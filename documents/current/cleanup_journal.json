@@ -1,0 +1,970 @@
+{
+  "root": "D:\\ai",
+  "backup": "C:\\Users\\Haris K\\.codex\\.chatgpt-projects\\g-p-6ac662de22e88191ae338fd5a5a23b2b\\organization\\D_ai_legacy_backup_20261028.zip",
+  "moves": [
+    {
+      "source": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection.docx",
+      "destination": "D:\\ai\\documents\\old_reviews\\reports\\hackathon\\Drone_Detection.docx"
+    },
+    {
+      "source": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection_Detailed_Implementation_Report.docx",
+      "destination": "D:\\ai\\documents\\old_reviews\\reports\\hackathon\\Drone_Detection_Detailed_Implementation_Report.docx"
+    },
+    {
+      "source": "D:\\ai\\documents\\reports\\hackathon\\Drone_Detection_Technical_Report_Updated.backup_20261007_222052.docx",
+      "destination": "D:\\ai\\documents\\old_reviews\\reports\\hackathon\\Drone_Detection_Technical_Report_Updated.backup_20261007_222052.docx"
+    },
+    {
+      "source": "D:\\ai\\documents\\reports\\research\\Flying object Detection using Hybrid deep learning Techniques review 1.docx",
+      "destination": "D:\\ai\\documents\\old_reviews\\reports\\research\\Flying object Detection using Hybrid deep learning Techniques review 1.docx"
+    },
+    {
+      "source": "D:\\ai\\documents\\research_results\\RESEARCH_PAPER_RESULTS.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\research_results\\RESEARCH_PAPER_RESULTS.md"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\combined_train_distribution_after_dedup.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\combined_train_distribution_after_dedup.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\corrected_class_distribution.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\corrected_class_distribution.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\dataset_report_before_merge.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\dataset_report_before_merge.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\DEDUPLICATION_AUDIT.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\DEDUPLICATION_AUDIT.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\DEDUPLICATION_SUMMARY.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\DEDUPLICATION_SUMMARY.md"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\duplicate_report.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\duplicate_report.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\mbaod_subset_audit.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\mbaod_subset_audit.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_validation.csv",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_validation.csv"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\NEAR_DUPLICATE_VALIDATION.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\NEAR_DUPLICATE_VALIDATION.md"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_000_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_000_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_000_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_000_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_001_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_001_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_001_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_001_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_002_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_002_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_002_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_002_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_003_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_003_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_003_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_003_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_004_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_004_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_004_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_004_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_005_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_005_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_005_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_005_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_006_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_006_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_006_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_006_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_007_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_007_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_007_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_007_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_008_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_008_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_008_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_008_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_009_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_009_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_009_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_009_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_010_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_010_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_010_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_010_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_011_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_011_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_011_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_011_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_012_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_012_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_012_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_012_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_013_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_013_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_013_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_013_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_014_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_014_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_014_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_014_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_015_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_015_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_015_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_015_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_016_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_016_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_016_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_016_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_017_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_017_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_017_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_017_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_018_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_018_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_018_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_018_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_019_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_019_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_019_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_019_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_020_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_020_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_020_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_020_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_021_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_021_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_021_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_021_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_022_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_022_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_022_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_022_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_023_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_023_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_023_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_023_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_024_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_024_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_024_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_024_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_025_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_025_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_025_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_025_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_026_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_026_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_026_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_026_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_027_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_027_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_027_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_027_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_028_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_028_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_028_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_028_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_029_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_029_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_029_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_029_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_030_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_030_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_030_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_030_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_031_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_031_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_031_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_031_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_032_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_032_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_032_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_032_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_033_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_033_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_033_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_033_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_034_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_034_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_034_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_034_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_035_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_035_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_035_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_035_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_036_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_036_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_036_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_036_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_037_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_037_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_037_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_037_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_038_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_038_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_038_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_038_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_039_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_039_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_039_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_039_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_040_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_040_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_040_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_040_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_041_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_041_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_041_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_041_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_042_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_042_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_042_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_042_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_043_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_043_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_043_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_043_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_044_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_044_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_044_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_044_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_045_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_045_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_045_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_045_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_046_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_046_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_047_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_047_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_047_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_047_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_048_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_048_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_048_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_048_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_049_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_049_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_049_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_049_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_050_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_050_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_050_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_050_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_051_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_051_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_051_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_051_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_052_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_052_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_052_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_052_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_053_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_053_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_053_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_053_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_054_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_054_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_054_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_054_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_055_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_055_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_055_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_055_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_056_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_056_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_056_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_056_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_057_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_057_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_057_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_057_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_058_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_058_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_058_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_058_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_059_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_059_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_059_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_059_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_060_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_060_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_061_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_061_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_061_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_061_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_062_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_062_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_062_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_062_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_063_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_063_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_063_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_063_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_064_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_064_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_064_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_064_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_065_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_065_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_065_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_065_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_066_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_066_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_066_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_066_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_067_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_067_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_067_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_067_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_068_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_068_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_068_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_068_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_069_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_069_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_069_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_069_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_070_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_070_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_070_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_070_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_071_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_071_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_071_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_071_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_072_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_072_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_072_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_072_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_073_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_073_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_073_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_073_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_074_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_074_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_074_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_074_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_075_dist_2_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_075_dist_2_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_075_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_075_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_076_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_076_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_076_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_076_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_077_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_077_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_077_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_077_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_078_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_078_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_078_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_078_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_079_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_079_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_079_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_079_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_080_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_080_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_080_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_080_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_081_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_081_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_081_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_081_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_082_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_082_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_082_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_082_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_083_dist_4_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_083_dist_4_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_083_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_083_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_084_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_084_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_084_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_084_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_085_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_085_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_085_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_085_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_086_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_086_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_086_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_086_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_087_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_087_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_087_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_087_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_088_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_088_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_088_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_088_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_089_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_089_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_089_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_089_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_090_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_090_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_090_dist_4_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_090_dist_4_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_091_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_091_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_091_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_091_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_092_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_092_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_092_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_092_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_093_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_093_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_093_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_093_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_094_dist_2_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_094_dist_2_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_094_dist_2_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_094_dist_2_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_095_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_095_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_095_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_095_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_096_dist_4_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_096_dist_4_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_096_dist_4_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_096_dist_4_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_097_dist_0_A_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_097_dist_0_A_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_097_dist_0_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_097_dist_0_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_098_dist_2_B_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_098_dist_2_B_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_099_dist_0_A_MBAOD.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_099_dist_0_A_MBAOD.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\dataset_audits\\near_duplicate_sample\\pair_099_dist_0_B_AOD4.jpg",
+      "destination": "D:\\ai\\documents\\old_reviews\\dataset_audits\\near_duplicate_sample\\pair_099_dist_0_B_AOD4.jpg"
+    },
+    {
+      "source": "D:\\ai\\documents\\organization\\data_yaml_before_relocation.txt",
+      "destination": "D:\\ai\\documents\\old_reviews\\organization\\data_yaml_before_relocation.txt"
+    },
+    {
+      "source": "D:\\ai\\documents\\organization\\move_journal.jsonl",
+      "destination": "D:\\ai\\documents\\old_reviews\\organization\\move_journal.jsonl"
+    },
+    {
+      "source": "D:\\ai\\documents\\organization\\relocation_plan.json",
+      "destination": "D:\\ai\\documents\\old_reviews\\organization\\relocation_plan.json"
+    },
+    {
+      "source": "D:\\ai\\benchmark_aod_results.json",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\benchmark_aod_results.json"
+    },
+    {
+      "source": "D:\\ai\\benchmark_dataset_yolo_results.json",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\benchmark_dataset_yolo_results.json"
+    },
+    {
+      "source": "D:\\ai\\benchmark_hybrid_results.json",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\benchmark_hybrid_results.json"
+    },
+    {
+      "source": "D:\\ai\\DETECTION_GUIDE.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\DETECTION_GUIDE.md"
+    },
+    {
+      "source": "D:\\ai\\DOCUMENTATION.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\DOCUMENTATION.md"
+    },
+    {
+      "source": "D:\\ai\\PROJECT_AUDIT.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\PROJECT_AUDIT.md"
+    },
+    {
+      "source": "D:\\ai\\RESEARCH_PAPER_RESULTS.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\RESEARCH_PAPER_RESULTS.md"
+    },
+    {
+      "source": "D:\\ai\\review1_text.txt",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\review1_text.txt"
+    },
+    {
+      "source": "D:\\ai\\REVIEWER_REPORT.md",
+      "destination": "D:\\ai\\documents\\old_reviews\\root_documents\\REVIEWER_REPORT.md"
+    },
+    {
+      "source": "D:\\ai\\Review_2_Evidence.zip",
+      "destination": "D:\\ai\\documents\\old_reviews\\Review_2_Evidence.zip"
+    },
+    {
+      "source": "D:\\ai\\archives\\packages\\combined_dataset_fixed.zip",
+      "destination": "D:\\ai\\datasets\\source_archives\\combined_dataset_fixed.zip"
+    },
+    {
+      "source": "D:\\ai\\datasets\\legacy_merged",
+      "destination": "D:\\ai\\datasets\\source_material\\previous_merge"
+    },
+    {
+      "source": "D:\\ai\\_current_release_staging",
+      "destination": "D:\\ai\\code\\dashboard"
+    }
+  ],
+  "deleted_after_backup": [
+    "code",
+    "core",
+    "tracking",
+    "models",
+    "checkpoints",
+    "tests",
+    "Data",
+    "results",
+    "research",
+    ".venv-cnn",
+    "01_YOLO12_Training_10Fold.ipynb",
+    "02_Detection_Tracking_Dashboard.ipynb",
+    "app_gui.py",
+    "app_streamlit.py",
+    "benchmark_5_techniques.py",
+    "create_sample_video.py",
+    "dashboard.py",
+    "dataset_audio_metadata.csv",
+    "Demo_IR_DRONE_146.mp4",
+    "Demo_V_DRONE_017.mp4",
+    "detection_engine.py",
+    "drone_audio_dataset.py",
+    "drone_dataset.py",
+    "evaluate_detailed_results.py",
+    "evaluate_research_benchmarks.py",
+    "Flying object Detection using Hybrid deep learning Techniques review 1.docx",
+    "gan_augmentation.py",
+    "generate_comprehensive_accuracy_metrics.py",
+    "launch_hackathon.ps1",
+    "launch_research.ps1",
+    "main.py",
+    "model_1_yolo_cnn.py",
+    "model_2_yolo_lstm.py",
+    "model_3_yolo_transformer.py",
+    "model_4_yolo_bilstm_attention.py",
+    "model_5_yolo_gan_transformer.py",
+    "Papers.zip",
+    "pipeline_alert_system.py",
+    "prepare_dataset.py",
+    "prepare_dataset_kfold.py",
+    "project.json",
+    "quickstart.py",
+    "README.md",
+    "run_workflow.py",
+    "samples_visualization.jpg",
+    "sample_annotated_frame.jpg",
+    "sample_surveillance_video.mp4",
+    "simulation_output.avi",
+    "test_annotated_ir.jpg",
+    "test_new_model.py",
+    "test_suite.py",
+    "train_models.py",
+    "visualize_dataset.py",
+    "yolov8n.pt"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "yolo": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.8267,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": null
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "cnn": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.7852,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": "cnn"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "transformer": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9735,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": "transformer"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "cgan_transformer": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9324,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": "cgan_transformer"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "lstm": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9994,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": "lstm"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "bilstm_attention": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9998,
+        "box": [
+          383.9,
+          231.1,
+          448.5,
+          267.7
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.8267,
+        "classifier": "bilstm_attention"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_yolo": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.6743,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": null
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_cnn": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9896,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": "yolo12_cnn"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_transformer": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9882,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": "yolo12_transformer"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_cgan_transformer": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9914,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": "yolo12_cgan_transformer"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_lstm": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9944,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": "yolo12_lstm"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  },
+  "yolo12_bilstm_attention": {
+    "image_detections": [
+      {
+        "class_id": 0,
+        "class_name": "airplane",
+        "confidence": 0.9936,
+        "box": [
+          385.7,
+          224.2,
+          449.7,
+          272.9
+        ],
+        "detector_class": "airplane",
+        "detector_confidence": 0.6743,
+        "classifier": "yolo12_bilstm_attention"
+      }
+    ],
+    "live_frames": 2,
+    "camera_frame": true
+  }
+}

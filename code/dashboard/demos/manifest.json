@@ -1,0 +1,182 @@
+[
+  {
+    "class_id": 0,
+    "name": "airplane",
+    "image": "/demos/0.jpg",
+    "source": "AOD4_V_AIRPLANE_0011_014_png_jpg.rf.0f421ec2d74a33e075a5ad88a98748f1.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.7281,
+    "video_kind": "Real video \u00b7 5 second clip",
+    "video": "/demos/0.mp4",
+    "clips": [
+      {
+        "id": "class-0-1",
+        "title": "Clip 1",
+        "file": "0.mp4",
+        "image": "/demos/0.jpg",
+        "kind": "Real video \u00b7 5 second clip"
+      },
+      {
+        "id": "class-0-2",
+        "title": "Clip 2",
+        "file": "0_2.mp4",
+        "image": "/demos/0_2.jpg",
+        "kind": "Real video \u00b7 second excerpt from the same recording"
+      }
+    ]
+  },
+  {
+    "class_id": 1,
+    "name": "bird",
+    "image": "/demos/1.jpg",
+    "source": "AOD4_aboodi-vesakaran-4WY3Mhqj9GA-unsplash_jpg.rf.23f198d9ace0cd3758d9f693cd94b314.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.8997,
+    "video_kind": "Real video \u00b7 5 second clip",
+    "video": "/demos/1.mp4",
+    "clips": [
+      {
+        "id": "class-1-1",
+        "title": "Clip 1",
+        "file": "1.mp4",
+        "image": "/demos/1.jpg",
+        "kind": "Real video \u00b7 5 second clip"
+      },
+      {
+        "id": "class-1-2",
+        "title": "Clip 2",
+        "file": "1_2.mp4",
+        "image": "/demos/1_2.jpg",
+        "kind": "Real video \u00b7 second excerpt from the same recording"
+      }
+    ]
+  },
+  {
+    "class_id": 2,
+    "name": "helicopter",
+    "image": "/demos/2.jpg",
+    "source": "AOD4_V_HELICOPTER_002226_004_png_jpg.rf.8fd8304df33853b02a7914f76332679e.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.8714,
+    "video_kind": "Real video \u00b7 5 second clip",
+    "video": "/demos/2.mp4",
+    "clips": [
+      {
+        "id": "class-2-1",
+        "title": "Clip 1",
+        "file": "2.mp4",
+        "image": "/demos/2.jpg",
+        "kind": "Real video \u00b7 5 second clip"
+      },
+      {
+        "id": "class-2-2",
+        "title": "Clip 2",
+        "file": "2_2.mp4",
+        "image": "/demos/2_2.jpg",
+        "kind": "Real video \u00b7 second excerpt from the same recording"
+      }
+    ]
+  },
+  {
+    "class_id": 3,
+    "name": "kite",
+    "image": "/demos/3.jpg",
+    "source": "MBAOD_Kite_0000040_jpg.rf.d0cc710a69e0d2e48222351c0a314992.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.8561,
+    "video_kind": "Still-image clip \u00b7 real motion video unavailable",
+    "video": "/demos/3.mp4",
+    "clips": [
+      {
+        "id": "class-3-1",
+        "title": "Clip 1",
+        "file": "3.mp4",
+        "image": "/demos/3.jpg",
+        "kind": "Still-image clip \u00b7 real motion video unavailable"
+      },
+      {
+        "id": "class-3-2",
+        "title": "Clip 2",
+        "file": "3_2.mp4",
+        "image": "/demos/3_2.jpg",
+        "kind": "Still-image clip \u00b7 alternate dataset sample; no motion footage"
+      }
+    ],
+    "alternate_source": "MBAOD_Kite_0000025_jpg.rf.f5a0383b2293d264f37709c1d844349c.jpg"
+  },
+  {
+    "class_id": 4,
+    "name": "parachute",
+    "image": "/demos/4.jpg",
+    "source": "MBAOD_Helicopter_0006468_jpg.rf.b78dec3135f38af59321601a3285abb4.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.8888,
+    "video_kind": "Still-image clip \u00b7 real motion video unavailable",
+    "video": "/demos/4.mp4",
+    "clips": [
+      {
+        "id": "class-4-1",
+        "title": "Clip 1",
+        "file": "4.mp4",
+        "image": "/demos/4.jpg",
+        "kind": "Still-image clip \u00b7 real motion video unavailable"
+      },
+      {
+        "id": "class-4-2",
+        "title": "Clip 2",
+        "file": "4_2.mp4",
+        "image": "/demos/4_2.jpg",
+        "kind": "Still-image clip \u00b7 alternate dataset sample; no motion footage"
+      }
+    ],
+    "alternate_source": "MBAOD_Helicopter_0006470_jpg.rf.4951cfe07f33745a8ff38aea113dae20.jpg"
+  },
+  {
+    "class_id": 5,
+    "name": "drone",
+    "image": "/demos/5.jpg",
+    "source": "AOD4_20190925_131530_1_1_002_jpg.rf.64694a1c45191270d0c6637a5e880d9f.jpg",
+    "source_split": "local dataset test split",
+    "verified_confidence": 0.8221,
+    "video_kind": "Real video \u00b7 5 second clip",
+    "video": "/demos/5.mp4",
+    "clips": [
+      {
+        "id": "class-5-1",
+        "title": "Clip 1",
+        "file": "5.mp4",
+        "image": "/demos/5.jpg",
+        "kind": "Real video \u00b7 5 second clip"
+      },
+      {
+        "id": "class-5-2",
+        "title": "Clip 2",
+        "file": "5_2.mp4",
+        "image": "/demos/5_2.jpg",
+        "kind": "Real video \u00b7 second excerpt from the same recording"
+      }
+    ]
+  },
+  {
+    "class_id": -1,
+    "name": "Mixed classes",
+    "image": "/demos/mixed.jpg",
+    "video_kind": "Simultaneous multi-camera mosaic \u00b7 four real recordings",
+    "clips": [
+      {
+        "id": "mixed-1",
+        "title": "Four classes together",
+        "file": "mixed.mp4",
+        "image": "/demos/mixed.jpg",
+        "kind": "Multi-camera mosaic \u00b7 airplane, bird, helicopter, drone"
+      },
+      {
+        "id": "mixed-2",
+        "title": "Four classes \u00b7 second clip",
+        "file": "mixed_2.mp4",
+        "image": "/demos/mixed_2.jpg",
+        "kind": "Multi-camera mosaic \u00b7 second excerpts from four real recordings"
+      }
+    ]
+  }
+]

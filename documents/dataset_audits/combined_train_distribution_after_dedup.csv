@@ -1,7 +1,0 @@
-class,AOD4_images,AOD4_boxes,MBAOD_images,MBAOD_boxes,combined_images_before_dedup,combined_boxes_before_dedup,combined_images_after_dedup,combined_boxes_after_dedup,image_percentage,box_percentage,imbalance_ratio
-airplane,3885,5508,4878,6682,8763,12190,2375,3518,19.54,17.05,1.7
-bird,2255,5520,3074,6682,5329,12202,3040,7037,25.01,34.1,3.4
-helicopter,4032,5528,4440,6682,8472,12210,2129,3224,17.51,15.62,1.56
-kite,0,0,2994,6682,2994,6682,1354,2291,11.14,11.1,1.11
-parachute,0,0,4355,6682,4355,6682,1846,2495,15.18,12.09,1.21
-UAV,5197,5500,5467,6682,10664,12182,1872,2070,15.4,10.03,1.0

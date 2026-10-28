@@ -1,0 +1,10 @@
+{
+  "removed_after_backup_or_exact_comparison": [
+    "archives/packages",
+    "archives/code_snapshots",
+    "archives/dataset_repair_work (all cached split files equal active dataset)"
+  ],
+  "paper_references": 30,
+  "matched_local_pdfs": 10,
+  "paper_downloads": 0
+}

@@ -1,0 +1,26 @@
+{
+  "class_names": [
+    "airplane",
+    "bird",
+    "helicopter",
+    "kite",
+    "parachute",
+    "drone"
+  ],
+  "scope": "Fold 1 demo; not final all-data weights",
+  "strict_load_all_heads": true,
+  "source_folder": "https://drive.google.com/drive/folders/14JpaeUzvfoxicNcQQ2OJBGvSRnpxS8Oa",
+  "results_folder": "https://drive.google.com/drive/folders/1OQDCfJXIoqHqltnglnOgvkUhPppsJxHA",
+  "sha256": {
+    "BiLSTM_Attention_head.pt": "9a98bc733806c82cac9fd2531fc531a660f581f4e6bb20b3c7cc594802318623",
+    "cGAN_Transformer_head.pt": "59a9f07fe9db2fd21297aa4f6ab7ba5ed89c9493e67371aeaf2c9468e779d865",
+    "CNN_head.pt": "577fb832051f253b11e9c7dbe6bd621110e3c0236bd2e371d486a5bfee4a356a",
+    "cv_progress.json": "05cee32c16e7aec61c7b7b5524d248d422ec14901be4a3fbede9f25abff874c1",
+    "cv_summary.csv": "2fd51171e8eb3eacdffa93d7f87b188d5a8a801be63e214c91055739900bf32f",
+    "LSTM_head.pt": "4e7698f8c86c81c4ffe049776c30c3068648ec9bc3166436707ae20864433309",
+    "resnet18_frozen.pt": "bec812b59e551070a12286bd8b21215ac5a740f244ecb231d27829fb60b1a5cd",
+    "run_config.json": "413b5a57c3fa44e0c6e672234d88b7afd89c96c256adfbbd1da47fad51e3840f",
+    "Transformer_head.pt": "4140b538ce6d01b54a3b7fd323221184a3bb997e671a16a11c903d3942366774",
+    "yolo12_best.pt": "842c700d90330b049cb02b388681c85eb15f30ec304472d8105e960ec868ddc2"
+  }
+}

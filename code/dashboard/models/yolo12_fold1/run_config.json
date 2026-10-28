@@ -1,0 +1,31 @@
+{
+  "dataset_fingerprint": "ee0e6ec7adf00b37",
+  "group_basis": "image_level_fallback_source_unknown",
+  "names": [
+    "airplane",
+    "bird",
+    "helicopter",
+    "kite",
+    "parachute",
+    "UAV"
+  ],
+  "yolo_weights": "yolo12n.pt",
+  "yolo_imgsz": 416,
+  "yolo_epochs": 5,
+  "head_epochs": 4,
+  "gan_epochs": 2,
+  "gan_steps": 25,
+  "gan_max_new_per_class": 100,
+  "gan_target_quantile": 1.0,
+  "seed": 42,
+  "num_folds": 10,
+  "smoke": false,
+  "sample_min_images_per_class": 3000,
+  "extra_background_images": 200,
+  "yolo_batch": 16,
+  "head_batch": 256,
+  "gan_batch": 32,
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.190",
+  "timm": "1.0.30"
+}

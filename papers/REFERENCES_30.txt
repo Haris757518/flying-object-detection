@@ -1,0 +1,123 @@
+RESEARCH REFERENCES (30 VERIFIED RECORDS)
+Status: Nine original PDF files are present; for all other papers, official full-text URLs and a downloader are supplied.
+
+[1] A. Nesteruk, V. Nikitin, Y. Albrekht, L. Scislo, D. Grela, and P. Krol, "Distinguishing a Drone from Birds Based on Trajectory Movement and Deep Learning," Sensors, 26(3), 755, 2026. https://doi.org/10.3390/s26030755
+Official full-text URL: https://www.mdpi.com/1424-8220/26/3/755/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[2] Y. Yao, J. Geng, G. Chen, T. Lei, L. Jiang, and Y. Cui, "Non-Appearance-Based Discrimination of UAVs and Birds in Optical Remote Sensing: Using Kinematic and Time-Frequency Features," Drones, 10(2), 98, 2026. https://doi.org/10.3390/drones10020098
+Official full-text URL: https://www.mdpi.com/2504-446X/10/2/98/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[3] S. Peng and H. Li, "A Classification Recognition Method of UAVs and Birds Based on a Fusion Measure with the VMD-Driven Model and Time-Frequency Spectrum Segmentation," Sensors, 26(19), 6113, 2026. https://doi.org/10.3390/s26196113
+Official full-text URL: https://www.mdpi.com/1424-8220/26/19/6113/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[4] T. Zhang and X. Song, "A Classification Algorithm of UAV and Bird Target Based on L/K Dual-Band Micro-Doppler and Mamba," Drones, 10(4), 265, 2026. https://doi.org/10.3390/drones10040265
+Official full-text URL: https://www.mdpi.com/2504-446X/10/4/265/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[5] C. Han, M. R. Ullah, A. Kayes, K. Hasan, M. A. Rouf, M. R. Hasan, S. Tao, G. Gengli, and M. M. Billah, "Real-Time Small UAV Detection in Complex Airspace Using YOLOv11 with Residual Attention and High-Resolution Feature Enhancement," Journal of Imaging, 12(3), 140, 2026. https://doi.org/10.3390/jimaging12030140
+Official full-text URL: https://www.mdpi.com/2313-433X/12/3/140/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[6] J. Guo, J. Chen, T. Zhang, and Q. Feng, "SynthAirDrone: Synthetic Drone Detection Dataset for Airport-Runway Environments," Drones, 10(4), 306, 2026. https://doi.org/10.3390/drones10040306
+Official full-text URL: https://www.mdpi.com/2504-446X/10/4/306/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[7] K. Zou, H. Zhao, X. Yan, W. Wang, Y. Zhang, and Y. Zhang, "MVFF: Multi-View Feature Fusion Network for Small UAV Detection," Drones, 10(4), 264, 2026. https://doi.org/10.3390/drones10040264
+Official full-text URL: https://www.mdpi.com/2504-446X/10/4/264/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[8] R. Zhang, J. Hou, Y. Shi, X. Dai, K. Zhang, and J. Diao, "SMG-UAV: Sparse Mutual Guided RGB-Event Fusion for Robust UAV Detection in Challenging Dynamic Environments," Drones, 10(7), 486, 2026. https://doi.org/10.3390/drones10070486
+Official full-text URL: https://www.mdpi.com/2504-446X/10/7/486/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[9] J. Samu and C. Yang, "Airport Ground-Based Aerial Object Surveillance Technologies for Enhanced Safety: A Systematic Review," Drones, 10(1), 22, 2026. https://doi.org/10.3390/drones10010022
+Official full-text URL: https://www.mdpi.com/2504-446X/10/1/22/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[10] Y. Du, Z. Dai, T. Wu, Q. Zhu, C. Hu, and S. Wei, "Eagle-YOLO: Enhancing Real-Time Small Object Detection in UAVs via Multi-Granularity Feature Aggregation," Drones, 10(2), 112, 2026. https://doi.org/10.3390/drones10020112
+Official full-text URL: https://www.mdpi.com/2504-446X/10/2/112/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[11] K. Lv, Z. Xiao, H. Ren, X. Li, and P. Lan, "DGE-YOLO: Dual-Branch Gathering and Attention for Efficient Accurate UAV Object Detection," Applied Sciences, 16(8), 4004, 2026. https://doi.org/10.3390/app16084004
+Official full-text URL: https://www.mdpi.com/2076-3417/16/8/4004/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[12] M. T. Ghenescu, V. Ghenescu, and S. V. Carata, "Acoustic Source Drone Detection System Using Tetrahedral Microphone Array and Deep Neural Networks," Sensors, 26(6), 1778, 2026. https://doi.org/10.3390/s26061778
+Official full-text URL: https://www.mdpi.com/1424-8220/26/6/1778/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[13] D. Kaur, N. Battish, A. Bhavsar, and S. Poddar, "YOLOBirDrone: Dataset for Bird vs Drone Detection and Classification and a YOLO Based Enhanced Learning Architecture," arXiv preprint, arXiv:2601.08319, 2026. https://doi.org/10.48550/arXiv.2601.08319
+Official full-text URL: https://arxiv.org/pdf/2601.08319
+Available PDF in ZIP: NO - publisher link provided
+
+[14] J. Zhu, J. Rong, W. Kou, Q. Zhou, and P. Suo, "Robust Real-Time Recognition of Drones and Birds in Complex Scenarios: A Multimodal Data Fusion Recognize Approach," Complex & Intelligent Systems, 12, article 8, 2026. https://doi.org/10.1007/s40747-025-02117-y
+Official full-text URL: https://link.springer.com/content/pdf/10.1007/s40747-025-02117-y.pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[15] L. Wen, A. Gong, C. Ma, S. Ma, and Y. Zhang, "Deep Learning-Based Small-Object Detection in UAV Imagery: A Symmetry-Informed Review of Scale Variation and Scenario Constraints," Symmetry, 18(9), 1548, 2026. https://doi.org/10.3390/sym18091548
+Official full-text URL: https://www.mdpi.com/2073-8994/18/9/1548/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[16] S. Luesutthiviboon, G. C. H. E. de Croon, A. Altena, M. Snellen, and M. Voskuijl, "Improving Visual Differentiation of Drones and Birds in Aerial Surveillance Using Trajectory Features," Neural Computing and Applications, 38, 477, 2026. https://doi.org/10.1007/s00521-026-12080-5
+Official full-text URL: https://link.springer.com/content/pdf/10.1007/s00521-026-12080-5.pdf
+Available PDF in ZIP: YES
+
+[17] L. Zhao, Y. Zhang, Y. Li, and H. Zhong, "Global and Local Context-Aware Detection for Infrared Small UAV Targets," Drones, 9(11), 804, 2025. https://doi.org/10.3390/drones9110804
+Official full-text URL: https://www.mdpi.com/2504-446X/9/11/804/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[18] X. Cheng, F. Wang, X. Hu, X. Wu, and M. Nuo, "IRWT-YOLO: A Background Subtraction-Based Method for Anti-Drone Detection," Drones, 9(4), 297, 2025. https://doi.org/10.3390/drones9040297
+Official full-text URL: https://www.mdpi.com/2504-446X/9/4/297/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[19] N. Habash, A. A. Alqumsan, and T. Zhou, "Recent Real-Time Aerial Object Detection Approaches, Performance, Optimization, and Efficient Design Trends for Onboard Performance: A Survey," Sensors, 25(24), 7563, 2025. https://doi.org/10.3390/s25247563
+Official full-text URL: https://www.mdpi.com/1424-8220/25/24/7563/pdf
+Available PDF in ZIP: YES
+
+[20] N. S. H. Al-Zadjali, S. Balasubaramanian, C. Savarimuthu, and E. O. Rances, "Bio-Inspired Motion Detection Models for Improved UAV and Bird Differentiation: A Novel Deep Learning Framework," Scientific Reports, 15, article 15521, 2025. https://doi.org/10.1038/s41598-025-99951-4
+Official full-text URL: https://link.springer.com/content/pdf/10.1038/s41598-025-99951-4.pdf
+Available PDF in ZIP: YES
+
+[21] W. Hua and Q. Chen, "A Survey of Small Object Detection Based on Deep Learning in Aerial Images," Artificial Intelligence Review, 58, article 162, 2025. https://doi.org/10.1007/s10462-025-11150-9
+Official full-text URL: https://link.springer.com/content/pdf/10.1007/s10462-025-11150-9.pdf
+Available PDF in ZIP: YES
+
+[22] M. Larrat and C. Sales, "Classification of Flying Drones Using Millimeter-Wave Radar: Comparative Analysis of Algorithms Under Noisy Conditions," Sensors, 25(3), 721, 2025. https://doi.org/10.3390/s25030721
+Official full-text URL: https://www.mdpi.com/1424-8220/25/3/721/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[23] J. Leng, Y. Ye, M. Mo, C. Gao, J. Gan, B. Xiao, and X. Gao, "Recent Advances for Aerial Object Detection: A Survey," ACM Computing Surveys, 56(12), article 296, pp. 1-36, 2024. https://doi.org/10.1145/3664598
+Official full-text URL: https://doi.org/10.1145/3664598
+Available PDF in ZIP: YES
+
+[24] Z.-W. Sun, Z.-X. Hua, H.-C. Li, Z.-P. Qi, X. Li, Y. Li, and J.-C. Zhang, "FBD-SV-2024: Flying Bird Object Detection Dataset in Surveillance Video," Scientific Data, 12, article 530, 2025. https://doi.org/10.1038/s41597-025-04872-6
+Official full-text URL: https://link.springer.com/content/pdf/10.1038/s41597-025-04872-6.pdf
+Available PDF in ZIP: YES
+
+[25] H. Lee, S. Han, J.-I. Byeon, S. Han, R. Myung, J. Joung, and J. Choi, "CNN-Based UAV Detection and Classification Using Sensor Fusion," IEEE Access, 11, pp. 68791-68808, 2023. https://doi.org/10.1109/ACCESS.2023.3293124
+Official full-text URL: https://doi.org/10.1109/ACCESS.2023.3293124
+Available PDF in ZIP: YES
+
+[26] S. K. Shandilya, A. Srivastav, K. Yemets, A. Datta, and A. K. Nagar, "YOLO-Based Segmented Dataset for Drone vs. Bird Detection for Deep and Machine Learning Algorithms," Data in Brief, 50, article 109355, 2023. https://doi.org/10.1016/j.dib.2023.109355
+Official full-text URL: https://doi.org/10.1016/j.dib.2023.109355
+Available PDF in ZIP: YES
+
+[27] H. J. Al Dawasari, M. Bilal, M. Moinuddin, K. Arshad, and K. Assaleh, "DeepVision: Enhanced Drone Detection and Recognition in Visible Imagery through Deep Learning Networks," Sensors, 23(21), 8711, 2023. https://doi.org/10.3390/s23218711
+Official full-text URL: https://www.mdpi.com/1424-8220/23/21/8711/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[28] R. M. Narayanan, B. Tsang, and R. Bharadwaj, "Classification and Discrimination of Birds and Small Drones Using Radar Micro-Doppler Spectrogram Images," Signals, 4(2), pp. 337-358, 2023. https://doi.org/10.3390/signals4020018
+Official full-text URL: https://www.mdpi.com/2624-6120/4/2/18/pdf
+Available PDF in ZIP: NO - publisher link provided
+
+[29] A. Coluccia, A. Fascista, A. Schumann, L. Sommer, A. Dimou, D. Zarpalas, M. Mendez, D. de la Iglesia, I. Gonzalez, J.-P. Mercier, G. Gagne, A. Mitra, and S. Rajashekar, "Drone vs. Bird Detection: Deep Learning Algorithms and Results from a Grand Challenge," Sensors, 21(8), 2824, 2021. https://doi.org/10.3390/s21082824
+Official full-text URL: https://www.mdpi.com/1424-8220/21/8/2824/pdf
+Available PDF in ZIP: YES
+
+[30] G. Tang, J. Ni, Y. Zhao, Y. Gu, and W. Cao, "A Survey of Object Detection for UAVs Based on Deep Learning," Remote Sensing, 16(1), 149, 2024. https://doi.org/10.3390/rs16010149
+Official full-text URL: https://www.mdpi.com/2072-4292/16/1/149/pdf
+Available PDF in ZIP: NO - publisher link provided
+

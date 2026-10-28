@@ -1,0 +1,28 @@
+{
+  "image_counts": {
+    "train": 38786,
+    "val": 8311,
+    "test": 8312
+  },
+  "label_counts": {
+    "train": 38786,
+    "val": 8311,
+    "test": 8312
+  },
+  "boxes_by_class": {
+    "1": 16922,
+    "5": 17393,
+    "2": 16351,
+    "0": 16588,
+    "4": 9500,
+    "3": 9500
+  },
+  "errors": [],
+  "recorded_group_cross_split_leaks": 0,
+  "recorded_hash_cross_split_leaks": 0,
+  "image_content_scope": "Ten deterministic image decode samples per split; all image/label pair paths and all label rows checked. Existing recorded image hashes/group IDs inspected; image bytes not all rehashed in this check.",
+  "demo_clips_decoded": 14,
+  "verified_runtime_combinations": 12,
+  "notebook_status": "Python syntax checked; not rerun training or actual Colab.",
+  "passed": true
+}
